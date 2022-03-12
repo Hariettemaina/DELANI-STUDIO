@@ -12,7 +12,7 @@ body{
     font-size: 10px;
 }
 #head-content{
-    background-image: url(../backgrounds/h_img.jpg);
+    background-image: url(/backgrounds/h_img.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
