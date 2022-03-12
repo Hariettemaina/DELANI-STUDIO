@@ -30,3 +30,12 @@
 #about_us{
     margin-top: 60px;
 }
+#services{
+    height: 50%;
+    background-image: url(./backgrounds/s_image.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
