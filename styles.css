@@ -49,3 +49,10 @@
 .hidden-content {
     display: none;
 }
+#portofolio {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 18%;
+    margin-right: 16%;
+}
