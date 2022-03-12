@@ -39,6 +39,13 @@
     background-size: cover;
     background-position: center;
 }
-#ourservices{
+#ourservices, #work {
     margin-top: 0px;
+}
+#themessage {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.hidden-content {
+    display: none;
 }
