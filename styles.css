@@ -1,22 +1,2 @@
 
-html{
-  scroll-behavior: smooth;
-}
-body{
-    margin: 50px;
-}
-.container-fluid{
-    position: relative;
-    text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 10px;
-}
-#head-content{
-    background-image: url(/backgrounds/h_img.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    height: 100%;
-}
 
