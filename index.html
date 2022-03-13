@@ -156,14 +156,60 @@
 
     <div class="container-fluid contact">
         <h2><strong>CONTACT US</strong></h2>
-        <form class="form-floating">
-            <input type="name" class="form-control" id="floatingInputValue" placeholder="Name" value="Name">
-            <label for="floatingInputValue">Input with value</label>
-        </form>
-        <form class="form-floating">
-        <textarea class="form-control" placeholder="Your message here" id="floatingTextarea"></textarea>
-        <label for="floatingTextarea">Your message here</label>
-        </form>
+        <div class="container" class="text-center">
+            <form action="" class="contact" id="contact-form">
+                <div class="row">
+                    <div class="col col-12 col-md-12 col-lg-6">
+                        <div class="form-group">
+                            <input type="text" id="name" name="NAME" value=""
+                                class="form-control isInput required" placeholder="Name..">
+                        </div>
+                    </div>
+                    <div class="col col-12 col-md-12 col-lg-6">
+                        <div class="form-group">
+                            <input type="email" id="email" name="EMAIL" value=""
+                                class="form-control isInput required" placeholder="Email...">
+                        </div>
+                    </div>
+                    <div class="col col-12">
+                        <div class="form-group">
+                            <textarea class="form-control isInput required" name="MESSAGE" id="message"
+                                rows="10" value="" placeholder="Your message here..."></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-primary btn-lg float-left">
+                    </div>
+                </div>
+
+            </form>
+        </div>       
+    </div>
+    
+    <div>
+        <section id="social">
+            <div class="msocial">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12" id="social-padding">
+                            <img src="/social_icons/behance.png" alt="behance">
+                            <img src="/social_icons/dribble.png" alt="dribble">
+                            <img src="/social_icons/facebook.png" alt="facebook">
+                            <img src="/social_icons/flickr.png" alt="flickr">
+                            <img src="/social_icons/g_plus.png" alt="g_plus">
+                            <img src="/social_icons/pinterest.png" alt="pinterest">
+                            <img src="/social_icons/skype.png" alt="skype">
+                            <img src="/social_icons/stumble_upon.png" alt="stumble_upon">
+                            <img src="/social_icons/twitter.png" alt="twitter">
+                            <img src="/social_icons/you_tube.png" alt="you_tube">
+                        </div>
+                    </div>
+                    <h5>DELANI STUDIO </h5>
+                    <h5>2019</h5>
+                </div>
+
+            </div>
+        </section>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>

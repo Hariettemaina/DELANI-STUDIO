@@ -1,3 +1,6 @@
+body{
+    margin: 50px;
+}
 .container-fluid {
     position: relative;
     text-align: center;
@@ -28,7 +31,8 @@
     margin-top: 255px;
 }
 #about_us{
-    margin-top: 60px;
+    margin-top: 50px;
+    text-align: center;
 }
 #services{
     height: 50%;
@@ -59,5 +63,29 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+    height: 60%;
+    position: relative;
+    margin-top: 70px;
 }
+.isInput,
+.isinput:focus {
+    background-color: transparent;
+    color: #fff;
+}
+form#contact-form ::placeholder {
+    color: white;
+}
+
+.contact#message {
+    padding-top: 70px;
+}
+#social{
+    padding-top: 40px;
+}
+#soccial-padding img{
+    padding: 5px;
+}
+
+
+
 
