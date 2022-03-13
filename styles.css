@@ -49,10 +49,18 @@
 .hidden-content {
     display: none;
 }
-#portofolio {
+#portofolio .card0, .card1, .card2, .card3, .card4, 
+.card5, .card6, .card7 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     margin-left: 18%;
     margin-right: 16%;
+}
+.contact{
+    background-image: url(./backgrounds/c_image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
 }
