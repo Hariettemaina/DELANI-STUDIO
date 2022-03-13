@@ -1,22 +1,25 @@
 $(document).ready(function(){
  $('#design').click(function(){
-     $('#design-content').slideToggle()
-     $('#hidden-content1').slideToggle()
- 
+     $('#design-content').toggle()
+     
  });
 
 });
 
 $(document).ready(function(){
     $('#dev').click(function(){
-        $('#dev-content').slideToggle()
-        $('.hidden-content2').slideToggle()
+        $('#dev-content').toggle()
+        
     });
 });
 
 $(document).ready(function(){
     $('#product').click(function(){
-        $('#product-content').slideToggle()
-        $('.hidden-content3').slideToggle()
+        $('#product-content').toggle()
+       
     });
 });
+
+$
+
+    
