@@ -49,13 +49,9 @@
 .hidden-content {
     display: none;
 }
-#portofolio .card0, .card1, .card2, .card3, .card4, 
-.card5, .card6, .card7 {
+#portofolio  {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-left: 18%;
-    margin-right: 16%;
+    
 }
 .contact{
     background-image: url(./backgrounds/c_image.jpg);
@@ -64,3 +60,4 @@
     background-repeat: no-repeat;
     color: white;
 }
+
