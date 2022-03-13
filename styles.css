@@ -51,12 +51,20 @@ body{
     padding-bottom: 50px;
     text-align: center;
 }
-.hidden-content {
+.hidden-content1 {
+    display: none;
+}
+.hidden-content2 {
+    display: none;
+}
+.hidden-content3 {
     display: none;
 }
 #portofolio  {
     display: flex;
-    
+    padding-bottom: 5px;
+    padding-top: 15px;
+    margin-top: 30;
 }
 .contact{
     background-image: url(./backgrounds/c_image.jpg);
