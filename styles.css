@@ -107,11 +107,11 @@ form#contact-form ::placeholder {
     font-size: 30px;
     padding-top: 50%;
 }
-.portofolio-container{
+/*.portofolio-container{
     display: flex;
-    justify-content:space-around
+    justify-content:space-around;
     justify-items: center;
-}
+}*/
 
 
 
