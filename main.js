@@ -20,7 +20,7 @@ $(document).ready(function(){
     });
 });
 
-$(document).ready(function(){
+/*$(document).ready(function(){
     $('#overlay4').mouseenter(function(){
         $('.portfolio-text').filter('#wrk4').show('slow')
     }).mouseleave(function() {   
@@ -88,17 +88,17 @@ $(document).ready(function(){
    
        
     });
-})
+})*/
 
-$(document).ready(function(){
+/*$(document).ready(function(){
     $('#overlay8').mouseenter(function(){
-        $('.portfolio-text').filter('#wrk8').show('slow')
+        $('.img-fluid').filter('#wrk8').show('slow')
     }).mouseleave(function() {   
     $('#wrk8').hide('slow');
    
        
     });
-})
+})*/
 
 $("#submit").click(function(){
     var name = document.getElementById("name").value;
