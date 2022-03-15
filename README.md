@@ -49,4 +49,4 @@ If you have any question or contributions, please email me at [hariettemaina@gma
 
 ## License
 * *MIT License:*
-* Copyright (c) 2019 **Hariette Maina**
+* Copyright (c) 2022 **Hariette Maina**
